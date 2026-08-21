@@ -1,23 +1,38 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg: #0A0A0A;
+  --color-bg: #0a0a0a;
   --color-surface: #111111;
-  --color-surface-elevated: #1A1A1A;
+  --color-surface-elevated: #1a1a1a;
   --color-border: #222222;
-  --color-text-primary: #FAFAFA;
-  --color-text-secondary: #A0A0A0;
+  --color-text-primary: #fafafa;
+  --color-text-secondary: #a0a0a0;
   --color-text-muted: #666666;
-  --color-accent: #C8FF4D;
-  --color-accent-hover: #B8E645;
+  --color-accent: #c8ff4d;
+  --color-accent-hover: #b8e645;
 
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-sans: "Roboto", system-ui, -apple-system, sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Light theme — overrides CSS custom properties when .light is on <html> */
+html.light {
+  --color-bg: #fafafa;
+  --color-surface: #ffffff;
+  --color-surface-elevated: #f5f5f5;
+  --color-border: #e5e5e5;
+  --color-text-primary: #0a0a0a;
+  --color-text-secondary: #525252;
+  --color-text-muted: #a3a3a3;
+  --color-accent: #6a9a1e;
+  --color-accent-hover: #5a8418;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 }
 
 html {
@@ -30,6 +45,7 @@ body {
   color: var(--color-text-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Focus visible styles for accessibility */
@@ -38,7 +54,7 @@ body {
   outline-offset: 2px;
 }
 
-/* Custom scrollbar for dark theme */
+/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
