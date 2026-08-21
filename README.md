@@ -2,7 +2,7 @@
 
 Bilingual (EN/VI) personal portfolio website for **Nguyễn Trần Lĩnh Đạt** — Frontend Developer.
 
->  Live demo: portfolio-phi-seven-x87mevykpo.vercel.app
+>  Live demo: <a>https://portfolio-phi-seven-x87mevykpo.vercel.app/</a>
 
 ## Screenshots
 <img width="1920" height="1222" alt="screencapture-1" src="https://github.com/user-attachments/assets/4a3a169c-bcfd-4323-b99d-4be5360c871a" />
