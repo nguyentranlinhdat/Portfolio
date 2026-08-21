@@ -1,18 +1,15 @@
 # Personal Portfolio — Nguyễn Trần Lĩnh Đạt
 
-Bilingual (EN/VI) personal portfolio website for **Nguyễn Trần Lĩnh Đạt** — Frontend Developer Intern. Built as a frontend internship technical test.
+Bilingual (EN/VI) personal portfolio website for **Nguyễn Trần Lĩnh Đạt** — Frontend Developer.
 
-> 🌐 Live demo: _coming soon_ (Vercel deployment — paste URL here after deploy)
+>  Live demo: _coming soon_ (Vercel deployment — paste URL here after deploy)
 
-## 📸 Screenshots
+## Screenshots
+<img width="1920" height="1222" alt="screencapture-1" src="https://github.com/user-attachments/assets/4a3a169c-bcfd-4323-b99d-4be5360c871a" />
+<img width="1920" height="1203" alt="screencapture-2" src="https://github.com/user-attachments/assets/191a42bc-bd32-493a-b943-63bc39d05e95" />
+<img width="1920" height="1152" alt="screencapture-3" src="https://github.com/user-attachments/assets/9160c83c-5f14-4103-bc96-d036196e6db0" />
 
-| Home | Skills |
-|------|--------|
-| ![Home page](docs/screenshots/home.png) | _Add screenshot: `docs/screenshots/skills.png`_ |
-
-_More screenshots: run `npm run dev`, capture each page at 1440px width, save into `docs/screenshots/`._
-
-## 🛠 Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |----------|-----------|
@@ -70,7 +67,7 @@ npm run lint
 - Mobile menu: focus trap, Escape-to-close, focus restore, `aria-modal`
 - Visible focus states, ARIA labels on icon buttons, keyboard navigable
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -87,4 +84,4 @@ src/
 
 ---
 
-© 2026 Nguyễn Trần Lĩnh Đạt · [GitHub](https://github.com/) · [LinkedIn](https://www.linkedin.com/)
+© 2026 Nguyễn Trần Lĩnh Đạt · [GitHub](https://github.com/nguyentranlinhdat) · [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/datlinh02)
